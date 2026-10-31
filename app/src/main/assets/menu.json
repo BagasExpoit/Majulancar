@@ -1,0 +1,130 @@
+{
+  "store": {
+    "name": "MIE AYAM MAJU LANCAR MAS TRI",
+    "address": "Jl. Babakan Leuwikopo, Depan Polsek Dramaga",
+    "adminContactUrl": "https://t.me/Bagas_ocarius",
+    "adminChatId": "7361336492",
+    "phone": "+6282133911771",
+    "whatsappUrl": "https://wa.me/6282133911771?text=Halo%20Mie%20Ayam%20Maju%20Lancar%2C%20saya%20mau%20tanya%20menu%20%F0%9F%98%8A",
+    "hours": {
+      "label": "Setiap hari 08.00–22.00",
+      "open": "08:00",
+      "close": "22:00"
+    },
+    "rating": {
+      "value": 5.0,
+      "reviewCount": 6,
+      "source": "GoogleMaps"
+    },
+    "qrisPayload": "00020101021126570011ID.DANA.WWW011893600915345573715302094557371530303UMI51440014ID.CO.QRIS.WWW0215ID10232667059130303UMI5204581253033605802ID5925MIE AYAM MAJU LANCAR MAS 6010Kab. Bogor610516680630469EE",
+    "location": {
+      "lat": -6.5631508,
+      "lng": 106.7243088,
+      "zoom": 16,
+      "mapsUrl": "https://www.google.com/maps/place/CPPF%2BPPM+Mie+Ayam+Bakso+pakdhe+Trimin,+Babakan,+Kec.+Dramaga,+Kabupaten+Bogor,+Jawa+Barat+16680,+Indonesia/@-6.5631508,106.7243088,15z/data=!4m6!3m5!1s0x2e69c5a58163e1c5:0x4f9452ffd732c8a2!8m2!3d-6.5631508!4d106.7243088!16s%2Fg%2F11ty4v7k6r?utm_campaign=ml-ardl&g_ep=Eg1tbF8yMDI2MDcyOF8wIJvbDyoASAJQAQ%3D%3D"
+    }
+  },
+  "categories": {
+    "makanan": {
+      "label": "🍜 Menu Mie ayam",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20ayam%20lima%20ribu%20rupiah.jpg?width=900",
+      "photoCredit": "Wikimedia Commons (CC BY-SA 4.0)",
+      "items": [
+        {
+          "id": "bakso_kecil",
+          "name": "Mie ayam + Bakso (Kecil)",
+          "price": 12000
+        },
+        {
+          "id": "bakso_jumbo",
+          "name": "Mie ayam + Bakso (Jumbo)",
+          "price": 18000
+        },
+        {
+          "id": "bakso_urat",
+          "name": "Mie ayam + Bakso (Urat)",
+          "price": 15000
+        },
+        {
+          "id": "bakso_telur",
+          "name": "Mie ayam + Bakso (Telur)",
+          "price": 15000
+        },
+        {
+          "id": "mie_ayam_2",
+          "name": "Mie ayam",
+          "price": 10000
+        }
+      ]
+    },
+    "tambahan": {
+      "label": "🍥Menu  Bakso",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bakso%20lima%20ribu%20rupiah.jpg?width=900",
+      "photoCredit": "Wikimedia Commons (CC BY-SA 4.0)",
+      "items": [
+        {
+          "id": "extra_bakso_urat",
+          "name": "Bakso Urat",
+          "price": 10000
+        },
+        {
+          "id": "extra_bakso_jumbo",
+          "name": "Bakso Jumbo",
+          "price": 15000
+        },
+        {
+          "id": "extra_bakso_telur",
+          "name": "Bakso Telur",
+          "price": 10000
+        },
+        {
+          "id": "extra_bakso_urat_telur",
+          "name": "Bakso Urat + Telur",
+          "price": 15000
+        }
+      ]
+    },
+    "minuman": {
+      "label": "🥤 Menu Minuman",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/ES%20TEH%20MANIS.jpg?width=900",
+      "photoCredit": "Wikimedia Commons (CC BY-SA 4.0)",
+      "items": [
+        {
+          "id": "es_teh",
+          "name": "Es Teh",
+          "price": 3000
+        },
+        {
+          "id": "es_teh_tawar",
+          "name": "Es Teh Tawar",
+          "price": 2000
+        },
+        {
+          "id": "teh_pucuk",
+          "name": "Teh Pucuk",
+          "price": 5000
+        },
+        {
+          "id": "le_minerale",
+          "name": "Le Minerale",
+          "price": 5000
+        },
+        {
+          "id": "nutrisari",
+          "name": "Nutrisari",
+          "price": 5000
+        },
+        {
+          "id": "es_kelapa",
+          "name": "Es Kelapa",
+          "price": 5000
+        },
+        {
+          "id": "teh_manis_hangat",
+          "name": "Teh Manis Hangat",
+          "price": 3000
+        }
+      ]
+    }
+  }
+}

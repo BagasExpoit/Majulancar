@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.majulancar.kasir.ui.menu.MenuFragment"
+        android:label="@string/nav_menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.majulancar.kasir.ui.cart.CartFragment"
+        android:label="@string/nav_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/omzetFragment"
+        android:name="com.majulancar.kasir.ui.omzet.OmzetFragment"
+        android:label="@string/nav_omzet"
+        tools:layout="@layout/fragment_omzet" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.majulancar.kasir.ui.about.AboutFragment"
+        android:label="@string/nav_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>

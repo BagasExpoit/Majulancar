@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="card_bg">@color/charcoal_2</color>
+    <color name="card_stroke">#33FFFFFF</color>
+    <color name="text_primary">@color/cream</color>
+    <color name="text_secondary">#C9BBA8</color>
+    <color name="ok_bg">#334C7A5E</color>
+    <color name="warn_bg">#40E2A53D</color>
+</resources>

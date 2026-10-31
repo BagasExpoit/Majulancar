@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Semantic tokens: light values here, dark values in values-night/. -->
+    <color name="card_bg">#FFFFFF</color>
+    <color name="card_stroke">#1F000000</color>
+    <color name="text_primary">@color/ink</color>
+    <color name="text_secondary">@color/ink_soft</color>
+    <color name="ok_bg">#264C7A5E</color>
+    <color name="warn_bg">#33E2A53D</color>
+</resources>

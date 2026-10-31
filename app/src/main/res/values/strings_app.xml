@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Store badges -->
+    <string name="badge_rating">★ %1$.1f (%2$d ulasan · %3$s)</string>
+    <string name="badge_hours">%1$s · %2$s</string>
+    <string name="status_open">Buka</string>
+    <string name="status_closed">Tutup</string>
+
+    <!-- Menu -->
+    <string name="cart_added">✅ %1$dx %2$s ditambahkan!</string>
+    <string name="photo_credit">Foto: %1$s</string>
+
+    <!-- Cart -->
+    <string name="cart_empty_toast">Keranjang kosong!</string>
+    <string name="cart_unit_suffix">/ satuan</string>
+    <string name="cart_line">%1$d x %2$s = %3$s</string>
+
+    <!-- Payment -->
+    <string name="pay_close">Tutup</string>
+    <string name="pay_total_label">Total Belanja</string>
+    <string name="pay_exact">Uang Pas</string>
+    <string name="pay_cash_short">Uang kurang %1$s</string>
+    <string name="pay_qris_embedded">Nominal sudah sesuai total pesanan — tinggal scan &amp; bayar</string>
+    <string name="pay_qris_fallback">Nominal tidak bisa disematkan ke QR. Minta pembeli mengetik nominal secara manual.</string>
+    <string name="content_desc_qr">Kode QRIS pembayaran</string>
+
+    <!-- Omzet -->
+    <string name="omzet_reset_confirm_btn">Yakin Reset?</string>
+    <string name="omzet_cash_info">Uang: %1$s    Kembali: %2$s</string>
+
+    <!-- About -->
+    <string name="about_subtitle">MAS TRI</string>
+    <string name="about_whatsapp_label">WhatsApp · %1$s</string>
+    <string name="about_dev_facebook">Bagas Ramandani</string>
+    <string name="about_dev_instagram">@bagas_samuji74</string>
+    <string name="about_dev_github">GitHub</string>
+    <string name="about_copyright">© %1$d %2$s</string>
+
+    <!-- Misc -->
+    <string name="error_cannot_open_link">Tidak ada aplikasi yang bisa membuka tautan ini.</string>
+    <string name="root_warning_title">Perangkat terdeteksi di-root</string>
+    <string name="root_warning_message">Perangkat ini tampak sudah di-root. Data keranjang dan omzet tetap dienkripsi, tetapi perangkat yang di-root lebih rentan. Gunakan perangkat kasir yang tidak di-root bila memungkinkan.</string>
+    <string name="ok">OK</string>
+</resources>
