@@ -1,0 +1,22 @@
+# Build
+.gradle/
+build/
+app/build/
+local.properties
+captures/
+*.apk
+*.aab
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# RAHASIA - jangan pernah di-commit
+*.jks
+*.keystore
+*.p12
+keystore.properties
+.env
+.env.*
+!.env.example
