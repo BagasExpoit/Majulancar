@@ -2,8 +2,12 @@ name: Build APK
 
 on:
   push:
+    tags: [ "v*" ]
     branches: [main, master]
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -48,3 +52,9 @@ jobs:
           path: |
             app/build/outputs/apk/debug/*.apk
             app/build/outputs/apk/release/*.apk
+
+      - name: Publish GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: app/build/outputs/apk/release/*.apk
