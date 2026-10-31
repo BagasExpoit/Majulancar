@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Hardened network policy:
+    - No cleartext (plain HTTP) traffic anywhere in the app, no exceptions.
+    - Only the system trust store (trusted CAs) is honored — user-added /
+      VPN-injected CA certificates are NOT trusted, which blocks most
+      traffic-inspection / MITM tooling from reading the app's HTTPS calls.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

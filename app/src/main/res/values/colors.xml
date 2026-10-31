@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palette taken from the store's own brand tokens (chili / turmeric /
+         basil / charcoal / cream), same identity as the original site. -->
+    <color name="chili">#C73029</color>
+    <color name="chili_deep">#9C231D</color>
+    <color name="turmeric">#E2A53D</color>
+    <color name="basil">#4C7A5E</color>
+    <color name="charcoal">#1C1712</color>
+    <color name="charcoal_2">#241D16</color>
+    <color name="cream">#FBF7F0</color>
+    <color name="cream_2">#F3ECDF</color>
+    <color name="ink">#362B22</color>
+    <color name="ink_soft">#6B5C4D</color>
+    <color name="danger">#B3261E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="divider">#1F000000</color>
+</resources>
