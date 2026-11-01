@@ -111,12 +111,22 @@ fun StorePills(modifier: Modifier = Modifier, onDark: Boolean = false) {
             Spacer(Modifier.width(8.dp))
             Box(Modifier.size(8.dp).background(if (isOpen) Basil.copy(alpha = 1f) else Chili, CircleShape))
             Spacer(Modifier.width(4.dp))
-            Text(
-                if (isOpen) "Buka" else "Tutup",
-                color = fg,
-                style = MaterialTheme.typography.labelLarge,
-                fontWeight = FontWeight.Bold,
-            )
+            // Box dengan teks "Tutup" transparan sebagai penentu lebar tetap,
+            // supaya pergantian status Buka/Tutup tidak mengubah lebar pill (anti-geser).
+            Box(contentAlignment = Alignment.CenterStart) {
+                Text(
+                    "Tutup",
+                    color = Color.Transparent,
+                    style = MaterialTheme.typography.labelLarge,
+                    fontWeight = FontWeight.Bold,
+                )
+                Text(
+                    if (isOpen) "Buka" else "Tutup",
+                    color = fg,
+                    style = MaterialTheme.typography.labelLarge,
+                    fontWeight = FontWeight.Bold,
+                )
+            }
         }
     }
 }

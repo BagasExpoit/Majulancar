@@ -81,18 +81,6 @@ fun AboutScreen() {
             }
         }
 
-        InfoCard("🔒 Keamanan Aplikasi") {
-            listOf(
-                "Tanpa login & tanpa captcha — aplikasi langsung dipakai.",
-                "Tanpa izin internet: tidak ada data yang bisa dikirim keluar perangkat.",
-                "Riwayat omzet & keranjang terenkripsi AES-256-GCM (kunci di Android Keystore).",
-                "Harga selalu dihitung ulang dari katalog, bukan dari data keranjang.",
-                "Layar dilindungi dari screenshot & perekam layar; sentuhan saat tertutup overlay diabaikan.",
-                "Backup cloud dimatikan; tautan keluar hanya ke daftar situs yang diizinkan.",
-                "Tema terang/gelap bisa diganti lewat tombol di pojok kanan atas.",
-            ).forEach { Text("• $it", style = MaterialTheme.typography.bodyMedium) }
-        }
-
         Text(
             "Versi ${BuildConfig.VERSION_NAME} · © Mie Ayam Maju Lancar Mas Tri",
             style = MaterialTheme.typography.bodySmall,

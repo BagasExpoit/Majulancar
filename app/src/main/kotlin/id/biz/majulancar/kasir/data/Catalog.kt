@@ -21,7 +21,7 @@ object StoreInfo {
 
 object Catalog {
     val categories: List<MenuCategory> = listOf(
-        MenuCategory(key = "makanan", label = "Menu Mie ayam", emoji = "🍜", items = listOf(
+        MenuCategory(key = "makanan", label = "Menu Mie Ayam", emoji = "🍜", items = listOf(
             MenuItem("bakso_kecil", "Mie ayam + Bakso (Kecil)", 12000L),
             MenuItem("bakso_jumbo", "Mie ayam + Bakso (Jumbo)", 18000L),
             MenuItem("bakso_urat", "Mie ayam + Bakso (Urat)", 15000L),
